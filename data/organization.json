@@ -1,0 +1,17 @@
+{
+  "organization": {
+    "id": "1",
+    "name": "TechCorp Solutions",
+    "logo": "/placeholder.svg?height=60&width=200",
+    "address": "123 Business Ave, Tech City, TC 12345",
+    "foundedDate": "2020-01-01",
+    "totalEmployees": 4,
+    "totalRevenue": 95000,
+    "monthlyGrowth": 12.5,
+    "settings": {
+      "allowSelfRegistration": false,
+      "requireAdminApproval": true,
+      "invitationExpiry": 7
+    }
+  }
+}

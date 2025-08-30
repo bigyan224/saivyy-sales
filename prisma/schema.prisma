@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String    @id @default(uuid())
+  email     String    @unique
+  name      String
+  role      Role      @default(EMPLOYEE)
+  createdAt DateTime  @default(now())
+  clerkId   String    @unique
+  meetings  Meeting[]
+  sales     Sale[]
+}
+
+model Sale {
+  id        String   @id @default(uuid())
+  userId    String
+  date      DateTime
+  details   String?
+  amount    Float
+  status    String   @default("Pending")
+  client    String  
+  category  String   
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [clerkId], onDelete: Cascade)
+}
+
+
+model Meeting {
+  id          String   @id @default(uuid())
+  userId      String
+  date        DateTime
+  title       String
+  description String?
+  status      String   @default("Scheduled")
+  createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model InvitedEmail {
+  id      Int     @id @default(autoincrement())
+  email   String  @unique
+  is_used Boolean @default(false)
+}
+
+enum Role {
+  ADMIN
+  EMPLOYEE
+}

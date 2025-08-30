@@ -1,0 +1,69 @@
+{
+  "meetings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "userName": "John Smith",
+      "title": "Q4 Review with Acme Corp",
+      "description": "Quarterly business review and planning for 2025",
+      "date": "2024-12-28",
+      "time": "14:00",
+      "status": "Scheduled",
+      "priority": "High",
+      "clientName": "Acme Corp",
+      "meetingType": "Client Review"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "userName": "Sarah Johnson",
+      "title": "Tech Solutions Kickoff",
+      "description": "Project kickoff meeting for cloud migration",
+      "date": "2024-12-30",
+      "time": "10:00",
+      "status": "Scheduled",
+      "priority": "Medium",
+      "clientName": "Tech Solutions Inc",
+      "meetingType": "Project Kickoff"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "userName": "John Smith",
+      "title": "Global Industries Check-in",
+      "description": "Monthly progress review",
+      "date": "2024-12-25",
+      "time": "15:30",
+      "status": "Success",
+      "priority": "Medium",
+      "clientName": "Global Industries",
+      "meetingType": "Progress Review"
+    },
+    {
+      "id": "4",
+      "userId": "3",
+      "userName": "Mike Chen",
+      "title": "StartupXYZ Demo",
+      "description": "Product demo and feedback session",
+      "date": "2024-12-24",
+      "time": "11:00",
+      "status": "Failed",
+      "priority": "High",
+      "clientName": "StartupXYZ",
+      "meetingType": "Product Demo"
+    },
+    {
+      "id": "5",
+      "userId": "2",
+      "userName": "Sarah Johnson",
+      "title": "Retail Chain Training",
+      "description": "Staff training on new POS system",
+      "date": "2025-01-05",
+      "time": "09:00",
+      "status": "Scheduled",
+      "priority": "Low",
+      "clientName": "Retail Chain Co",
+      "meetingType": "Training"
+    }
+  ]
+}

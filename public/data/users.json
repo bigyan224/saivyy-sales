@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "email": "john.smith@company.com",
+      "role": "admin",
+      "joinDate": "2024-01-15",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@company.com",
+      "role": "user",
+      "joinDate": "2024-02-20",
+      "avatar": "/professional-avatar.png",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Mike Davis",
+      "email": "mike.davis@company.com",
+      "role": "user",
+      "joinDate": "2024-03-10",
+      "avatar": "/professional-avatar.png",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Emily Chen",
+      "email": "emily.chen@company.com",
+      "role": "user",
+      "joinDate": "2024-03-25",
+      "avatar": "/professional-avatar.png",
+      "isActive": false
+    }
+  ]
+}

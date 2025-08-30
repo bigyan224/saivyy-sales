@@ -1,0 +1,12 @@
+{
+  "organization": {
+    "id": "org-1",
+    "name": "TechCorp Solutions",
+    "industry": "Technology",
+    "foundedDate": "2020-01-01",
+    "totalEmployees": 4,
+    "totalRevenue": 183000,
+    "monthlyRevenue": 70000,
+    "defaultRole": "user"
+  }
+}

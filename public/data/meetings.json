@@ -1,0 +1,64 @@
+{
+  "meetings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "userName": "John Smith",
+      "title": "Product Demo",
+      "description": "Demonstrate new features to potential client",
+      "date": "2024-12-20",
+      "time": "10:00 AM",
+      "status": "Scheduled",
+      "priority": "High",
+      "clientName": "Future Tech"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "userName": "John Smith",
+      "title": "Contract Review",
+      "description": "Review terms and conditions with legal team",
+      "date": "2024-12-18",
+      "time": "2:00 PM",
+      "status": "Scheduled",
+      "priority": "Medium",
+      "clientName": "Legal Partners"
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "userName": "Sarah Johnson",
+      "title": "Client Onboarding",
+      "description": "Initial setup and training session",
+      "date": "2024-12-22",
+      "time": "11:00 AM",
+      "status": "Scheduled",
+      "priority": "High",
+      "clientName": "New Client Co"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "userName": "John Smith",
+      "title": "Follow-up Call",
+      "description": "Check on implementation progress",
+      "date": "2024-12-15",
+      "time": "3:00 PM",
+      "status": "Success",
+      "priority": "Low",
+      "clientName": "Acme Corp"
+    },
+    {
+      "id": "5",
+      "userId": "3",
+      "userName": "Mike Davis",
+      "title": "Proposal Presentation",
+      "description": "Present quarterly proposal to stakeholders",
+      "date": "2024-12-25",
+      "time": "9:00 AM",
+      "status": "Scheduled",
+      "priority": "High",
+      "clientName": "Enterprise Solutions"
+    }
+  ]
+}

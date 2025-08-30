@@ -1,0 +1,59 @@
+{
+  "sales": [
+    {
+      "id": "1",
+      "userId": "1",
+      "userName": "John Smith",
+      "date": "2024-12-15",
+      "clientName": "Acme Corp",
+      "details": "Enterprise software license renewal",
+      "amount": 45000,
+      "status": "Completed",
+      "category": "Software"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "userName": "John Smith",
+      "date": "2024-12-10",
+      "clientName": "TechStart Inc",
+      "details": "Cloud infrastructure setup",
+      "amount": 25000,
+      "status": "Pending",
+      "category": "Services"
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "userName": "Sarah Johnson",
+      "date": "2024-12-12",
+      "clientName": "Global Solutions",
+      "details": "Consulting services contract",
+      "amount": 35000,
+      "status": "Completed",
+      "category": "Consulting"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "userName": "John Smith",
+      "date": "2024-12-08",
+      "clientName": "Innovation Labs",
+      "details": "Custom development project",
+      "amount": 60000,
+      "status": "In Progress",
+      "category": "Development"
+    },
+    {
+      "id": "5",
+      "userId": "3",
+      "userName": "Mike Davis",
+      "date": "2024-12-05",
+      "clientName": "StartupXYZ",
+      "details": "Marketing automation platform",
+      "amount": 18000,
+      "status": "Completed",
+      "category": "Software"
+    }
+  ]
+}

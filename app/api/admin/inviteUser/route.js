@@ -34,7 +34,7 @@ export async function POST(req) {
     // Create Clerk invitation
     const invitation = await clerkClient.invitations.createInvitation({
       emailAddress: email,
-      redirectUrl: "https://saivyy-sales-9zrpsdq96-bigyan-acharyas-projects.vercel.app/", // your signup page
+      redirectUrl: "https://saivyy-sales.vercel.app/", // your signup page
     });
 
     return new Response(
